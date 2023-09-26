@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { setUserName } from "../redux/usersPoints";
+import { setUserName } from "../redux/usersPointsSlice";
 import { QuizHeader, SubmitButton, StartQuizButton } from "../style";
 import { TextField } from "@mui/material";
 

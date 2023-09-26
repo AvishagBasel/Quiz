@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { NextOrFinishButton, QuizHeader } from "../style";
 import QuestionBox from "./QuestionBox";
 import { useDispatch } from "react-redux";
-import { decrement, increment } from "../redux/usersPoints";
+import { decrement, increment } from "../redux/usersPointsSlice";
 import { useState } from "react";
 
 const QuizQuestion = () => {

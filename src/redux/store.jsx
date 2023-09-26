@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import usersPoints from "./usersPoints";
+import usersPoints from "./usersPointsSlice";
 
 const store = configureStore({
   reducer: usersPoints,
