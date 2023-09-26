@@ -51,7 +51,7 @@ const quizQuestions = [
   {
     question: "Who is Zorro ?",
     options: [
-      "fictional character created in 1919",
+      "Fictional character created in 1919",
       "Top model ",
       "Former president of the USA",
       "Olympic-winning athlete",
