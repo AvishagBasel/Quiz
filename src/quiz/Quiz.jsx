@@ -20,6 +20,7 @@ const QuizQuestion = () => {
     } else {
       dispatch(decrement());
     }
+    setSelectedOptionIndex(undefined);
   };
 
   return (
