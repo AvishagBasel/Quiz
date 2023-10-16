@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   usersList: {},
-  currentUser: undefined,
+  currentUser: null,
 };
 
 const counterSlice = createSlice({
